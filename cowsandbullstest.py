@@ -19,7 +19,7 @@ b='1 bull'
 ch='Y'
 while ch=='Y':
     Count=1
-    while Count<=3:
+    while Count<=10:
         n=m=0
         t=list(input('enter choice'))
         a=0
@@ -38,9 +38,14 @@ while ch=='Y':
                     m+=1
             a+=1
         print(n,'bulls',m,'cows')
+        if n==4:
+            print('BOOYAAH WON ')
+            break
         Count+=1
         print()
-    if Count>3:
+    if Count>10
+    :
         print('''<<<  SORRY U LOSE!  >>>''')
         print('<< THE ANSWER IS ',Result)
+        print()
     ch=input('<< TO TRY AGAIN PRESS Y  >>')
